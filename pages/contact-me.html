@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>Security</title>
+        <title>Contact me</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
    
@@ -39,26 +39,27 @@
         </header><!-- /#banner -->
         
 <section id="content" class="body">    
-    <h1 class="entry-title">Security</h1>
-    <h2>This page contains my security experinces</h2>
-<div class="highlight"><pre><span></span>- Cybersecurity including writing Machine Learning program for threat hunting and anomaly detection.
-- Developped (hardware &amp; software) of an encryption controller.    
-- Penetration testing, port and vulnerability scanning using open source tools.
-- Scalability and Performance improvement of a Cloud Security Gateway by making major architecture   
-  changes to the ICAP server to make it more parallel to efficiently use multiple cores.   
-- Security Architecture for a new IP based network protocol (100 times faster than TCP/IP), 
-  and implementation using low level OpenSSL API to implement PKI, various encryption 
-  algorithms, authentication and non-repudiation.  
-- Multiple projects using Secure Shell &quot;SSH2&quot; including secure transfer of 
-  credit card settlement files.  
-- Cloud security gateway performance improvements.  
-- Payment Card Industry Data Security Standard (PCI DSS) compliance.  
-- Web Security, OWASP, ecommerce security.  
-- Design of the security model of an OODB in the Internet environment.  
-- Research in Security in the area of OS, RDBMS, OODB, Network and Internet.
-  Wrote a highly technical document of 120 pages.  
-- Internet of Things &quot;Iot&quot; Security model.
-</pre></div>
+    <h1 class="entry-title">Contact me</h1>
+    <form class="form" id="contactform" action="//formspree.io/saeidmoha@yahoo.com" method="POST">
+ <fieldset class="field">
+ <input class="input" type="text" name="name" placeholder="Name" id="name" required>
+ <label class="label" for="name"><span class="label-content">Your name</span></label>
+ </fieldset>
+ <fieldset class="field">
+ <input class="input" type="email" name="_replyto" placeholder="example@domain.com" id="_replyto" required>
+ <label class="label" for="_replyto"><span class="label-content">Your email</span></label>
+ </fieldset>
+ <fieldset class="field">
+ <textarea class="input" name="message" rows="1" 
+ placeholder="Message" id="message" required></textarea>
+ <label class="label" for="message"><span class="label-content">Your message</span></label>
+ </fieldset>
+ <input class="hidden" type="text" name="_gotcha" style="display:none">
+ <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
+ <fieldset class="field">
+ <input class="button submit" type="submit" value="Send">
+ </fieldset>
+</form>
 </section>
         <section id="extras" class="body">
                 <div class="blogroll">
